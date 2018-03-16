@@ -69,6 +69,7 @@ chmod +x import.sh
 ```
 [import.sh](https://github.com/nosql/app-cli-lozovsky/blob/master/import.sh)
 - [ ] time counter (average) (WIP)
+
 | Typ importu                   | real time         | user time         | sys time  |
 | :---                          | ---               | ---               | ---       |
 | standalone                    | 44.654 [s]        | 1 [m] 39.3742 [s] | 6.777 [s] |
