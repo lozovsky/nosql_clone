@@ -65,6 +65,7 @@ rs.initiate( rsconf )
 - [ ] import script & time counter
 ```
 chmod +x import.sh
-./ [https://github.com/nosql/app-cli-lozovsky/blob/master/README.md](import.sh)
+./ import.sh
 ```
+[https://github.com/nosql/app-cli-lozovsky/blob/master/README.md](import.sh)
 - [ ] Test skryptu
