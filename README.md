@@ -18,7 +18,10 @@ dnf install mongodb mongodb-server
 service mongod start
 mongo
 ```
-- [ ] Import danych do mongoDB
+- [x] Import danych do mongoDB
+```
+mongoimport -d test -c collection_name --type csv --headerline  --drop --file file_path
+```
 - [ ] localhost replicaset
 - [ ] replicaset (3 komputery)
 - [ ] import script & time counter
