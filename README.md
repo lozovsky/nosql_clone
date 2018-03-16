@@ -62,10 +62,21 @@ rsconf = {
 rs.initiate( rsconf )
 ```
 - [ ] replicaset (3 komputery)
-- [x] import script & time counter
+- [x] import script
 ```
 chmod +x import.sh
 ./ import.sh
 ```
-[import.sh](https://github.com/nosql/app-cli-lozovsky/blob/master/README.md])
-- [ ] Test skryptu
+[import.sh](https://github.com/nosql/app-cli-lozovsky/blob/master/import.sh)
+- [ ] time counter (average) (WIP)
+| Typ importu                   | real time         | user time         | sys time  |
+| :---                          | ---               | ---               | ---       |
+| standalone                    | 44.654 [s]        | 1 [m] 39.3742 [s] | 6.777 [s] |
+| replica set default           | 6 [m] 48.3302 [s] | 1 [m] 45.9328 [s] | 7.43  [s] | 
+| replica set (w: 1, j: false)  | WIP               | WIP               | WIP       |
+| replica set (w: 1, j: true)   | WIP               | WIP               | WIP       |
+| replica set (w: 2, j: false)  | WIP               | WIP               | WIP       |
+| replica set (w: 2, j: true)   | WIP               | WIP               | WIP       |
+
+
+- [ ] Przygotowanie danych porownawczych
