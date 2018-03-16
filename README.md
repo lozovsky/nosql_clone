@@ -4,12 +4,20 @@ Dane: [Crime Data from 2010 to Present](https://catalog.data.gov/dataset/crime-d
 
 ## To do: 
 - [x] Konwersja CSV -> json
+
 [csvtojson](https://www.npmjs.com/package/csvtojson)
 ```
 npm i -g csntojson
 csvtojson source.csv > converted.json
 ```
-- [ ] Instalacja mongoDB
+- [x] Instalacja mongoDB
+```
+dnf install mongodb mongodb-server
+```
+```
+service mongod start
+mongo
+```
 - [ ] Import danych do mongoDB
 - [ ] localhost replicaset
 - [ ] replicaset (3 komputery)
