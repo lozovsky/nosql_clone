@@ -62,10 +62,10 @@ rsconf = {
 rs.initiate( rsconf )
 ```
 - [ ] replicaset (3 komputery)
-- [ ] import script & time counter
+- [x] import script & time counter
 ```
 chmod +x import.sh
 ./ import.sh
 ```
-[https://github.com/nosql/app-cli-lozovsky/blob/master/README.md](import.sh)
+[import.sh](https://github.com/nosql/app-cli-lozovsky/blob/master/README.md])
 - [ ] Test skryptu
