@@ -22,6 +22,13 @@ mongo
 ```
 mongoimport -d test -c collection_name --type csv --headerline  --drop --file file_path
 ```
+- [x] Collection count
+```
+db.collection.count()
+```
+```
+> 1,700,816 
+```
 - [x] localhost replicaset
 ```
 mkdir -p carbon/carbon-0 carbon/carbon-1 carbon/carbon-2
