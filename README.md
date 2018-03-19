@@ -2,7 +2,7 @@
 
 Dane: [Crime Data from 2010 to Present](https://catalog.data.gov/dataset/crime-data-from-2010-to-present)
 
-## Measured times
+## Measured times (average)
 | Typ importu                   | real time         | user time         | sys time  |
 | :---                          | ---               | ---               | ---       |
 | standalone                    | 44.654 [s]        | 1 [m] 39.3742 [s] | 6.777 [s] |
