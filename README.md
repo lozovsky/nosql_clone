@@ -2,7 +2,19 @@
 
 Dane: [Crime Data from 2010 to Present](https://catalog.data.gov/dataset/crime-data-from-2010-to-present)
 
+## Measured times
+| Typ importu                   | real time         | user time         | sys time  |
+| :---                          | ---               | ---               | ---       |
+| standalone                    | 44.654 [s]        | 1 [m] 39.3742 [s] | 6.777 [s] |
+| replica set default           | 6 [m] 48.3302 [s] | 1 [m] 45.9328 [s] | 7.43  [s] | 
+| replica set (w: 1, j: false)  | 1 [m] 32.4982 [s] | 1 [m] 45.4486 [s] | 6.736 [s] |
+| replica set (w: 1, j: true)   | 5 [m] 33.7674 [s] | 1 [m] 49.2026 [s] | 7.439 [s] |
+| replica set (w: 2, j: false)  | 5 [m] 27.5454 [s] | 1 [m] 51.247  [s] | 7.545 [s] |
+| replica set (w: 2, j: true)   | 5 [m] 50.1938 [s] | 1 [m] 44.5534 [s] | 7.612 [s] |
+
+
 ## To do: 
+
 - [x] Konwersja CSV -> json
 
 [csvtojson](https://www.npmjs.com/package/csvtojson)
@@ -68,16 +80,5 @@ chmod +x import.sh
 ./ import.sh
 ```
 [import.sh](https://github.com/nosql/app-cli-lozovsky/blob/master/import.sh)
-- [ ] time counter (average) (WIP)
-
-| Typ importu                   | real time         | user time         | sys time  |
-| :---                          | ---               | ---               | ---       |
-| standalone                    | 44.654 [s]        | 1 [m] 39.3742 [s] | 6.777 [s] |
-| replica set default           | 6 [m] 48.3302 [s] | 1 [m] 45.9328 [s] | 7.43  [s] | 
-| replica set (w: 1, j: false)  | WIP               | WIP               | WIP       |
-| replica set (w: 1, j: true)   | WIP               | WIP               | WIP       |
-| replica set (w: 2, j: false)  | WIP               | WIP               | WIP       |
-| replica set (w: 2, j: true)   | WIP               | WIP               | WIP       |
-
 
 - [ ] Przygotowanie danych porownawczych
